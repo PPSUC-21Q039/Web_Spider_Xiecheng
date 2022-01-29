@@ -41,5 +41,6 @@ def process_web_data(keywords):
 ##################################################################
 if __name__ == "__main__":
     for each in pre_process_info():
-        print (each, pre_process_info()[each], get_web_data(pre_process_info()[each]))
+        print (each, pre_process_info()[each])
     # print(get_web_data('北京海兴大酒店'))
+    # , get_web_data(pre_process_info()[each])
